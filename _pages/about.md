@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student at the <a href='https://computerscience.emory.edu/index.html'>Computer Science Department, Emory University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Bohan_Wang.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
