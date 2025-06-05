@@ -440,16 +440,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-am-happy-to-be-admitted-as-a-computer-science-phd-student-in-emory-unviersity-advised-by-prof-wei-jin-smile",
+          title: 'I am happy to be admitted as a Computer Science PhD student in...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-survey-on-graph-ordinary-differential-equations-odes-has-been-accepted-by-kdd2025",
+          title: 'Our survey on Graph Ordinary Differential Equations (ODEs) has been accepted by KDD2025!...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
