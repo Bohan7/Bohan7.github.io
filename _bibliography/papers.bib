@@ -8,7 +8,9 @@
   title={Graph odes and beyond: A comprehensive survey on integrating differential equations with graph neural networks},
   author={Liu*, Zewen and Wang*, Xiaoda and Wang, Bohan and Huang, Zijie and Yang, Carl and Jin, Wei},
   booktitle={Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  year={2025}
+  year={2025},
+  abstract={Graph Neural Networks (GNNs) and differential equations (DEs) are two rapidly advancing areas of research that have shown remarkable synergy in recent years. GNNs have emerged as powerful tools for learning on graph-structured data, while differential equations provide a principled framework for modeling continuous dynamics across time and space. The intersection of these fields has led to innovative approaches that leverage the strengths of both, enabling applications in physics-informed learning, spatiotemporal modeling, and scientific computing. This survey aims to provide a comprehensive overview of the burgeoning research at the intersection of GNNs and DEs. We will categorize existing methods, discuss their underlying principles, and highlight their applications across domains such as molecular modeling, traffic prediction, and epidemic spreading. Furthermore, we identify open challenges and outline future research directions to advance this interdisciplinary field.},
+  pdf={https://arxiv.org/abs/2503.23167}
 }
 
 @article{wang2024mitigating,
@@ -16,7 +18,10 @@
   title={Mitigating Graph Covariate Shift via Score-based Out-of-distribution Augmentation},
   author={Wang, Bohan and Chang, Yurui and Lin, Lu},
   journal={arXiv preprint arXiv:2410.17506},
-  year={2024}
+  year={2024},
+  selected={true},
+  abstract={Distribution shifts between training and testing datasets significantly impair the model performance on graph learning. A commonly-taken causal view in graph invariant learning suggests that stable predictive features of graphs are causally associated with labels, whereas varying environmental features lead to distribution shifts. In particular, covariate shifts caused by unseen environments in test graphs underscore the critical need for out-of-distribution (OOD) generalization. Existing graph augmentation methods designed to address the covariate shift often disentangle the stable and environmental features in the input space, and selectively perturb or mixup the environmental features. However, such perturbation-based methods heavily rely on an accurate separation of stable and environmental features, and their exploration ability is confined to existing environmental features in the training distribution. To overcome these limitations, we introduce a novel approach using score-based graph generation strategies that synthesize unseen environmental features while preserving the validity and stable features of overall graph patterns. Our comprehensive empirical evaluations demonstrate the enhanced effectiveness of our method in improving graph OOD generalization.},
+  pdf={https://arxiv.org/abs/2410.17506}
 }
 
 @inproceedings{vignacdigress,
@@ -24,7 +29,10 @@
   title={DiGress: Discrete Denoising diffusion for graph generation},
   author={Vignac*, Clement and Krawczuk*, Igor and Siraudin, Antoine and Wang, Bohan and Cevher, Volkan and Frossard, Pascal},
   booktitle={The Eleventh International Conference on Learning Representations},
-  year={2023}
+  year={2023},
+  selected={true},
+  abstract={This work introduces DiGress, a discrete denoising diffusion model for generating graphs with categorical node and edge attributes. Our model utilizes a discrete diffusion process that progressively edits graphs with noise, through the process of adding or removing edges and changing the categories. A graph transformer network is trained to revert this process, simplifying the problem of distribution learning over graphs into a sequence of node and edge classification tasks. We further improve sample quality by introducing a Markovian noise model that preserves the marginal distribution of node and edge types during diffusion, and by incorporating auxiliary graph-theoretic features. A procedure for conditioning the generation on graph-level features is also proposed. DiGress achieves state-of-the-art performance on molecular and non-molecular datasets, with up to 3x validity improvement on a planar graph dataset. It is also the first model to scale to the large GuacaMol dataset containing 1.3M drug-like molecules without the use of molecule-specific representations.},
+  pdf={https://arxiv.org/abs/2209.14734}
 }
 
 @inproceedings{chrysos2023regularization,
@@ -33,7 +41,9 @@
   author={Chrysos, Grigorios G and Wang, Bohan and Deng, Jiankang and Cevher, Volkan},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={16123--16132},
-  year={2023}
+  year={2023},
+  abstract={Deep Neural Networks (DNNs) have obtained impressive performance across tasks, however they still remain as black boxes, e.g., hard to theoretically analyze. At the same time, Polynomial Networks (PNs) have emerged as an alternative method with a promising performance and improved interpretability but have yet to reach the performance of the powerful DNN baselines. In this work, we aim to close this performance gap. We introduce a class of PNs, which are able to reach the performance of ResNet across a range of six benchmarks. We demonstrate that strong regularization is critical and conduct an extensive study of the exact regularization schemes required to match performance. To further motivate the regularization schemes, we introduce D-PolyNets that achieve a higher-degree of expansion than previously proposed polynomial networks. D-PolyNets are more parameter-efficient while achieving a similar performance as other polynomial networks. We expect that our new models can lead to an understanding of the role of elementwise activation functions (which are no longer required for training PNs).},
+  pdf={https://arxiv.org/abs/2303.13896}
 }
 
 @inproceedings{wang23p_interspeech,
@@ -45,6 +55,9 @@
   pages     = {2073--2077},
   doi       = {10.21437/Interspeech.2023-836},
   issn      = {2958-1796},
+  selected={true},
+  abstract={This paper presents ALO-VC, a non-parallel low-latency one-shot phonetic posteriorgrams (PPGs) based voice conversion method. ALO-VC enables any-to-any voice conversion using only one utterance from the target speaker, with only 47.5 ms future look-ahead. The proposed hybrid signal processing and machine learning pipeline combines a pre-trained speaker encoder, a pitch predictor to predict the converted speech's prosody, and positional encoding to convey the phoneme's location information. We introduce two system versions: ALO-VC-R, which uses a pre-trained d-vector speaker encoder, and ALO-VC-E, which improves performance using the ECAPA-TDNN speaker encoder. The experimental results demonstrate both ALO-VC-R and ALO-VC-E can achieve comparable performance to non-causal baseline systems on the VCTK dataset and two out-of-domain datasets. Furthermore, both proposed systems can be deployed on a single CPU core with 55 ms latency and 0.78 real-time factor.},
+  pdf={https://arxiv.org/abs/2306.01100}
 }
 
 @inproceedings{wang2022detection,
@@ -53,117 +66,15 @@
   author={Wang*, Bohan and Wang*, Ke and Li*, Siran and Cieliebak, Mark},
   booktitle={SwissText},
   pages={1--5},
-  year={2022}
+  year={2022},
+  abstract={This paper presents a deep learning based model to detect the completeness and correctness of a sentence. It's designed specifically for detecting errors in speech recognition systems and takes several typical recognition errors into account, including false sentence boundary, missing words, repeating words and false word recognition. The model can be applied to evaluate the quality of the recognized transcripts, and the optimal model reports over 90.5% accuracy on detecting whether the system completely and correctly recognizes a sentence.},
+  pdf={https://ceur-ws.org/Vol-3361/paper1.pdf}
 }
 
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
