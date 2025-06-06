@@ -22,7 +22,7 @@
       }
     ]
   },
-  "education": [
+  "Education": [
     {
       "institution": "Emory University",
       "location": "Atlanta, Georgia",
@@ -49,14 +49,15 @@
       "institution": "University of Nottingham",
       "location": "Nottingham, England",
       "url": "https://www.nottingham.ac.uk/",
-      "area": "Image processing and computer vision",
+      "area": "Image Processing and Computer Vision",
       "studyType": "Bachelor of Engineering with Honours in Electrical and Electronic Engineering in the First Class",
       "startDate": "2016-09-01",
       "endDate": "2020-07-01",
-      "score": "10"
+      "score": "10",
+      "highlights": [""]
     }
   ],
-  "work": [
+  "Experience": [
     {
       "name": "Logitech",
       "position": "Engineering Internship focusing on deep learning",
