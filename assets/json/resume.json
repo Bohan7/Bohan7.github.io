@@ -22,7 +22,7 @@
       }
     ]
   },
-  "Education": [
+  "education": [
     {
       "institution": "Emory University",
       "location": "Atlanta, Georgia",
@@ -57,7 +57,7 @@
       "highlights": [""]
     }
   ],
-  "Experience": [
+  "experience": [
     {
       "name": "Logitech",
       "position": "Engineering Internship focusing on deep learning",
