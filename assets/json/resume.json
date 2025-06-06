@@ -32,7 +32,7 @@
       "startDate": "2025-01-01",
       "endDate": "Now",
       "score": "10",
-      "highlights": ["Advised by Prof. Wei Jin."]
+      "courses": ["Advised by Prof. Wei Jin."]
     },
     {
       "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
@@ -43,7 +43,7 @@
       "startDate": "2020-09-01",
       "endDate": "2023-10-01",
       "score": "10",
-      "highlights": ["Master's thesis advised by Prof. Pascal Frossard and Prof. Roger Wattenhofer."]
+      "courses": ["Master's thesis advised by Prof. Pascal Frossard and Prof. Roger Wattenhofer."]
     },
     {
       "institution": "University of Nottingham",
@@ -54,10 +54,10 @@
       "startDate": "2016-09-01",
       "endDate": "2020-07-01",
       "score": "10",
-      "highlights": [""]
+      "courses": [""]
     }
   ],
-  "experience": [
+  "experiences": [
     {
       "name": "Logitech",
       "position": "Engineering Internship focusing on deep learning",
@@ -65,7 +65,43 @@
       "startDate": "2022-09-01",
       "endDate": "2023-03-01",
       "summary": "Designed and implemented a non-parallel low-latency real-time any-to-any voice conversion system.",
-      "highlights": ["Advised by Milos Cernak."]
+      "highlights": ["Advised by Dr. Milos Cernak."]
+    },
+    {
+      "name": "The Pennsylvania State University",
+      "position": "Research Assistant",
+      "url": "https://www.psu.edu/",
+      "startDate": "2024-01-01",
+      "endDate": "2024-10-01",
+      "summary": "Explored graph-generation-based strategies to address the Out-of-Distribution (OOD) problem in machine learning on graph-structured data.",
+      "highlights": ["Advised by Prof. Lu Lin."]
+    },
+    {
+      "name": "Signal Processing Laboratory (LTS4), EPFL",
+      "position": "Research Assistant",
+      "url": "https://www.epfl.ch/labs/lts4/",
+      "startDate": "2022-07-01",
+      "endDate": "2022-10-01",
+      "summary": "Designed and implemented the conditional denoising process for the graph discrete denoising diffusion model.",
+      "highlights": ["Advised by Prof. Pascal Frossard."]
+    },
+    {
+      "name": "Distributed Computing Group (DISCO), ETH Zurich",
+      "position": "Master Thesis",
+      "url": "https://disco.ethz.ch/",
+      "startDate": "2023-03-01",
+      "endDate": "2023-09-01",
+      "summary": "Designed and implemented three diffusion models for sketch graph generation.",
+      "highlights": ["Advised by Prof. Pascal Frossard and Prof. Roger Wattenhofer."]
+    },
+    {
+      "name": "Laboratory for Information and Inference Systems (LIONS), EPFL",
+      "position": "Master Semester Projects",
+      "url": "https://www.epfl.ch/labs/lions/",
+      "startDate": "2021-02-01",
+      "endDate": "2022-01-01",
+      "summary": "Explored regularization of polynomial networks for image recognition.",
+      "highlights": ["Advised by Prof. Grigorios Chrysos and Prof. Volkan Cevher."]
     }
   ],
   "volunteer": [
