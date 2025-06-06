@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at the <a href='https://computerscience.emory.edu/index.html'>Computer Science Department, Emory University</a>, supervised by <a href='https://www.cs.emory.edu/~wjin30//lab/'>Prof. Wei Jin</a>
+subtitle: PhD student at the <a href='https://computerscience.emory.edu/index.html'>Computer Science Department, Emory University</a>, advised by <a href='https://www.cs.emory.edu/~wjin30//lab/'>Prof. Wei Jin</a>
 
 profile:
   align: right
