@@ -464,11 +464,18 @@ ninja.data = [{
           window.open("https://github.com/Bohan7", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/bohan-wang-44a3a31ba", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=1KOvCf0AAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
