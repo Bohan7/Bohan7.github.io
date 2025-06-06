@@ -2,7 +2,7 @@
   "education": [
     {
       "institution": "Emory University",
-      "location": "Atlanta, Georgia",
+      "location": "Atlanta, United States",
       "url": "https://computerscience.emory.edu/index.html",
       "area": "Graph Neural Networks (GNNs), Graph Generation, and Time Series Analysis",
       "studyType": "PhD in Computer Science",
@@ -82,96 +82,73 @@
   ],
   "honors and Awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Nottingham Engineering Excellence Scheme",
+      "date": "2019-11-27",
+      "awarder": "University of Nottingham",
+      "url": "NEES.pdf",
+      "summary": "2018-2019, Top 5% in Department"
+    },
+    {
+      "title": "Nottingham Awarded Dean's Scholarship for Academic Excellence",
+      "date": "2018-11-27",
+      "awarder": "University of Nottingham",
+      "url": "",
+      "summary": "2017-2018, Top 10% in Department"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Logitech Internship Certificate",
+      "date": "2023-02-26",
+      "issuer": "Logitech Europe SA",
+      "url": "Bohan_Wang_Work_Certificate.pdf",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Deep Learning Libraries",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "PyTorch",
+        "PyG (PyTorch Geometric)",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "Graph Analysis",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "NetworkX"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Proficient",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Graph Neural Networks (GNNs)",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Graph Generation",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Time Series Analysis",
+      "icon": "fa-solid fa-tag"
     }
   ]
 }
