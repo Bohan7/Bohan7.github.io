@@ -53,11 +53,10 @@
       "studyType": "Bachelor of Engineering with Honours in Electrical and Electronic Engineering in the First Class",
       "startDate": "2016-09-01",
       "endDate": "2020-07-01",
-      "score": "10",
-      "courses": [""]
+      "score": "10"
     }
   ],
-  "experiences": [
+  "experience": [
     {
       "name": "Logitech",
       "position": "Engineering Internship focusing on deep learning",
