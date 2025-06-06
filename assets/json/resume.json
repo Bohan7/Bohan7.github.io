@@ -85,14 +85,13 @@
       "title": "Nottingham Engineering Excellence Scheme",
       "date": "2019-11-27",
       "awarder": "University of Nottingham",
-      "url": "NEES.pdf",
+      "url": "/assets/pdf/NEES.pdf",
       "summary": "2018-2019, Top 5% in Department"
     },
     {
       "title": "Nottingham Awarded Dean's Scholarship for Academic Excellence",
       "date": "2018-11-27",
       "awarder": "University of Nottingham",
-      "url": "",
       "summary": "2017-2018, Top 10% in Department"
     }
   ],
@@ -101,7 +100,7 @@
       "name": "Logitech Internship Certificate",
       "date": "2023-02-26",
       "issuer": "Logitech Europe SA",
-      "url": "Bohan_Wang_Work_Certificate.pdf",
+      "url": "/assets/pdf/Bohan_Wang_Work_Certificate.pdf",
       "icon": "fa-solid fa-location-dot"
     }
   ],
