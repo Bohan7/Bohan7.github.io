@@ -58,7 +58,7 @@
       "url": "https://www.epfl.ch/labs/lts4/",
       "startDate": "2022-07-01",
       "endDate": "2022-10-01",
-      "summary": "Implemented the conditional denoising process for the graph discrete denoising diffusion model.",
+      "summary": "Designed and implemented the conditional denoising process for the graph discrete denoising diffusion model.",
       "highlights": ["Advised by Prof. Pascal Frossard."]
     },
     {
