@@ -6,8 +6,8 @@ subtitle: PhD student at the <a href='https://computerscience.emory.edu/index.ht
 
 profile:
   align: right
-  image: bohan_wang_2.jpg
-  image_circular: true # crops the image to make it circular
+  image: Bohan_Wang.jpg
+  image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>Email: bohan.wang2@emory.edu</p>
 
