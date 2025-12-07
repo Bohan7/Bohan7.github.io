@@ -206,13 +206,6 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // Square image with rounded corners
-  img.rounded {
-    object-fit: cover;
-    object-position: 65% 30%; // Center on person's face
-    aspect-ratio: 1 / 1;
-    border-radius: 16px !important; // Rounded corners
-  }
 }
 
 .profile.float-right {
