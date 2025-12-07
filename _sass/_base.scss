@@ -205,6 +205,13 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  // Ensure circular profile images crop correctly on the person
+  img.rounded-circle {
+    object-fit: cover;
+    object-position: 65% 30%; // Center on person's face
+    aspect-ratio: 1 / 1;
+  }
 }
 
 .profile.float-right {
