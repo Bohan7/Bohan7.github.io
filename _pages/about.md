@@ -36,7 +36,6 @@ latest_posts:
     <div class="journey-stop">
       <div class="journey-photo">
         <img src="{{ '/assets/img/china.jpg' | relative_url }}" alt="China">
-        <span class="journey-flag">🇨🇳</span>
       </div>
       <div class="journey-info">
         <div class="journey-country">China</div>
@@ -47,7 +46,6 @@ latest_posts:
     <div class="journey-stop">
       <div class="journey-photo">
         <img src="{{ '/assets/img/england.jpg' | relative_url }}" alt="England">
-        <span class="journey-flag">🇬🇧</span>
       </div>
       <div class="journey-info">
         <div class="journey-country">England</div>
@@ -58,7 +56,6 @@ latest_posts:
     <div class="journey-stop">
       <div class="journey-photo">
         <img src="{{ '/assets/img/switzerland.jpg' | relative_url }}" alt="Switzerland">
-        <span class="journey-flag">🇨🇭</span>
       </div>
       <div class="journey-info">
         <div class="journey-country">Switzerland</div>
@@ -69,7 +66,6 @@ latest_posts:
     <div class="journey-stop">
       <div class="journey-photo">
         <img src="{{ '/assets/img/USA.jpg' | relative_url }}" alt="USA">
-        <span class="journey-flag">🇺🇸</span>
       </div>
       <div class="journey-info">
         <div class="journey-country">USA</div>
@@ -131,23 +127,6 @@ latest_posts:
 }
 
 .journey-stop:hover .journey-photo img { transform: scale(1.06); }
-
-.journey-flag {
-  position: absolute;
-  top: 0.55rem;
-  right: 0.55rem;
-  font-size: 1.15rem;
-  line-height: 1;
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: 999px;
-  width: 1.95rem;
-  height: 1.95rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);
-  z-index: 1;
-}
 
 .journey-info { margin-top: 0.7rem; }
 

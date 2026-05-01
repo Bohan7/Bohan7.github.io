@@ -19,6 +19,35 @@ strong {
   color: var(--global-text-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.desc {
+  font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.post-title {
+  font-weight: 700;
+}
+
+.desc {
+  font-weight: 400;
+}
+
+em,
+i:not([class]),
+.font-italic,
+[style*="font-style: italic"],
+[style*="font-style:italic"] {
+  font-style: normal !important;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
