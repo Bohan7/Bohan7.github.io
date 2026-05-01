@@ -59,7 +59,7 @@ latest_posts:
       </div>
       <div class="journey-info">
         <div class="journey-country">Switzerland</div>
-        <div class="journey-place">EPFL · ETH Zürich</div>
+        <div class="journey-place">EPFL · ETH Zurich</div>
       </div>
     </div>
 
