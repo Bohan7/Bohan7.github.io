@@ -15,11 +15,20 @@
       "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
       "location": "Lausanne, Switzerland",
       "url": "https://www.epfl.ch/en/",
-      "area": "Graph Neural Networks (GNNs) and Graph Generation",
       "studyType": "Master of Science (MSc) in Electrical and Electronic Engineering with a Minor in Data Science",
       "startDate": "2020-09-01",
       "endDate": "2023-10-01",
       "score": "10",
+      "courses": ["Master's semester projects advised by Prof. Grigorios Chrysos and Prof. Volkan Cevher."]
+    },
+    {
+      "institution": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "url": "https://ethz.ch/en.html",
+      "area": "Graph Neural Networks (GNNs) and Graph Generation",
+      "studyType": "Master Thesis",
+      "startDate": "2023-03-01",
+      "endDate": "2023-09-01",
       "courses": ["Master's thesis advised by Prof. Pascal Frossard and Prof. Roger Wattenhofer."]
     },
     {

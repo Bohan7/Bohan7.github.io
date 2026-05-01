@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Research Interests:** Graph Neural Networks (GNNs), Graph Generation, and Time Series Analysis.
+**Research Interests:** Graph Neural Networks (GNNs), Graph Generation, Time Series Analysis, and Foundation Models.
 
 **Prior Experience:** I received my Master's degree from [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), completing my thesis at [ETH Zurich](https://ethz.ch/en.html) under the co-supervision of [Prof. Pascal Frossard](https://people.epfl.ch/pascal.frossard) and [Prof. Roger Wattenhofer](https://disco.ethz.ch/members/wroger). I have also served as a research intern at EPFL's [Signal Processing Laboratory](https://www.epfl.ch/labs/lts4/) and as a research assistant at the [Pennsylvania State University](https://www.psu.edu/) with [Prof. Lu Lin](https://louise-lulin.github.io/).
 
@@ -165,6 +165,10 @@ latest_posts:
   .journey-place { font-size: 0.88rem; }
 }
 </style>
+
+<h2>services</h2>
+
+- **Web Chair**, [KDD'26 Workshop on SciSoc Agents & LLMs](https://kdd26scisocllm.github.io/)
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
