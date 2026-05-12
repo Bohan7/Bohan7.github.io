@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to receive the **Outstanding Teaching Assistant of the Year (2025–26)** award in the CSI program at Emory University!
+Honored to receive the **Outstanding Teaching Assistant of the Year (2025–26)** award in the CSI program at Emory University! :scroll:
