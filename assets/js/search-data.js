@@ -400,7 +400,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-on-exposing-vulnerabilities-in-explanation-for-time-series-classifiers-has-been-accepted-to-icml-2026",
           title: 'Our paper on Exposing Vulnerabilities in Explanation for Time Series Classifiers has been...',
           description: "",
-          section: "News",},{id: "news-honored-to-receive-the-outstanding-teaching-assistant-of-the-year-2025-26-award-in-the-csi-program-at-emory-university",
+          section: "News",},{id: "news-honored-to-receive-the-outstanding-teaching-assistant-of-the-year-2025-26-award-in-the-csi-program-at-emory-university-scroll",
           title: 'Honored to receive the Outstanding Teaching Assistant of the Year (2025–26) award in...',
           description: "",
           section: "News",},{id: "news-excited-to-start-my-summer-internship-at-bytedance-in-san-jose-ca-rocket",
