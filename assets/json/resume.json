@@ -44,8 +44,15 @@
   ],
   "experience": [
     {
+      "name": "ByteDance · Internship<br>San Jose, California, USA",
+      "position": "Machine Learning Engineer",
+      "url": "https://www.bytedance.com/",
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-01"
+    },
+    {
       "name": "Logitech, Lausanne, Switzerland",
-      "position": "Engineering Internship focusing on deep learning",
+      "position": "Machine Learning Intern (Audio)",
       "url": "https://en.wikipedia.org/wiki/Logitech",
       "startDate": "2022-09-01",
       "endDate": "2023-03-01",

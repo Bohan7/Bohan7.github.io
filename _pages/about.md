@@ -164,7 +164,82 @@ latest_posts:
   .journey-country { font-size: 1.1rem; }
   .journey-place { font-size: 0.88rem; }
 }
+
+/* Internship journey: stacked vertical layout */
+.internship-journey .journey-track {
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.internship-journey .journey-stop {
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 480px;
+}
+.internship-journey .journey-stop:hover {
+  transform: translateX(4px);
+}
+.internship-journey .journey-photo {
+  flex: 0 0 110px;
+  aspect-ratio: 1 / 1;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.internship-journey .journey-photo::after { display: none; }
+.internship-journey .journey-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.6s ease;
+}
+.internship-journey .journey-stop:hover .journey-photo img {
+  transform: scale(1.06);
+}
+.internship-journey .journey-info {
+  flex: 1;
+  margin-top: 0;
+  text-align: left;
+}
+.internship-journey .journey-years {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.2rem;
+  letter-spacing: 0.03em;
+}
 </style>
+
+<h2 style="clear: both">internship journey</h2>
+
+<div class="study-journey internship-journey">
+  <div class="journey-track">
+    <div class="journey-stop">
+      <div class="journey-photo">
+        <img src="{{ '/assets/img/bytedance-color.png' | relative_url }}" alt="ByteDance">
+      </div>
+      <div class="journey-info">
+        <div class="journey-country">ByteDance</div>
+        <div class="journey-place">Machine Learning Engineer · USA</div>
+        <div class="journey-years">May 2026 – Aug 2026</div>
+      </div>
+    </div>
+
+    <div class="journey-stop">
+      <div class="journey-photo">
+        <img src="{{ '/assets/img/logitech.png' | relative_url }}" alt="Logitech">
+      </div>
+      <div class="journey-info">
+        <div class="journey-country">Logitech</div>
+        <div class="journey-place">Machine Learning Intern (Audio) · Switzerland</div>
+        <div class="journey-years">Sep 2022 – Mar 2023</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <h2>services</h2>
 
