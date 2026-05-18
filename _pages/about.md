@@ -29,6 +29,8 @@ latest_posts:
 
 **Prior Experience:** I received my Master's degree from [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), completing my thesis at [ETH Zurich](https://ethz.ch/en.html) under the co-supervision of [Prof. Pascal Frossard](https://people.epfl.ch/pascal.frossard) and [Prof. Roger Wattenhofer](https://disco.ethz.ch/members/wroger). I have also served as a research intern at EPFL's [Signal Processing Laboratory](https://www.epfl.ch/labs/lts4/) and as a research assistant at the [Pennsylvania State University](https://www.psu.edu/) with [Prof. Lu Lin](https://louise-lulin.github.io/).
 
+**Research Journey:** My research has touched multiple data modalities: computer vision, audio machine learning, graph generation, and now time series. I am always excited to learn new things.
+
 <h2 style="clear: both">academic journey</h2>
 
 <div class="study-journey">
