@@ -38,7 +38,7 @@ latest_posts:
         <img src="{{ '/assets/img/china.jpg' | relative_url }}" alt="China">
       </div>
       <div class="journey-info">
-        <div class="journey-country">China</div>
+        <div class="journey-country">China :cn:</div>
         <div class="journey-place">Hometown</div>
       </div>
     </div>
@@ -48,7 +48,7 @@ latest_posts:
         <img src="{{ '/assets/img/england.jpg' | relative_url }}" alt="England">
       </div>
       <div class="journey-info">
-        <div class="journey-country">England</div>
+        <div class="journey-country">England :gb:</div>
         <div class="journey-place">Nottingham, UK</div>
       </div>
     </div>
@@ -58,7 +58,7 @@ latest_posts:
         <img src="{{ '/assets/img/switzerland.jpg' | relative_url }}" alt="Switzerland">
       </div>
       <div class="journey-info">
-        <div class="journey-country">Switzerland</div>
+        <div class="journey-country">Switzerland :switzerland:</div>
         <div class="journey-place">EPFL · ETH Zurich</div>
       </div>
     </div>
@@ -68,7 +68,7 @@ latest_posts:
         <img src="{{ '/assets/img/USA.jpg' | relative_url }}" alt="USA">
       </div>
       <div class="journey-info">
-        <div class="journey-country">USA</div>
+        <div class="journey-country">USA :us:</div>
         <div class="journey-place">Emory University</div>
       </div>
     </div>
@@ -219,12 +219,12 @@ latest_posts:
   <div class="journey-track">
     <div class="journey-stop">
       <div class="journey-photo">
-        <img src="{{ '/assets/img/bytedance-color.png' | relative_url }}" alt="ByteDance">
+        <img src="{{ '/assets/img/tiktok.png' | relative_url }}" alt="TikTok">
       </div>
       <div class="journey-info">
-        <div class="journey-country">ByteDance</div>
-        <div class="journey-place">Machine Learning Engineer · USA</div>
-        <div class="journey-years">May 2026 – Aug 2026</div>
+        <div class="journey-country">TikTok</div>
+        <div class="journey-place">Machine Learning Engineer · San Jose, CA, USA</div>
+        <div class="journey-years">May 2026 – Present</div>
       </div>
     </div>
 
@@ -234,7 +234,7 @@ latest_posts:
       </div>
       <div class="journey-info">
         <div class="journey-country">Logitech</div>
-        <div class="journey-place">Machine Learning Intern (Audio) · Switzerland</div>
+        <div class="journey-place">Machine Learning Intern (Audio) · Lausanne, Switzerland</div>
         <div class="journey-years">Sep 2022 – Mar 2023</div>
       </div>
     </div>
