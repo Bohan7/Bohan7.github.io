@@ -5,22 +5,27 @@ title: life
 nav: true
 nav_order: 4
 photos:
+  # Ordered as three height-balanced groups (see the gallery comment
+  # below): column 1, then column 2, then column 3.
+  # -- column 1
   - { file: photo_1.jpg, w: 1200, h: 1600, alt: Life moment 1 }
-  - { file: photo_2.jpg, w: 1600, h: 1066, alt: Life moment 2 }
-  - { file: photo_3.jpg, w: 1200, h: 1600, alt: Life moment 3 }
-  - { file: photo_4.jpg, w: 1200, h: 1600, alt: Life moment 4 }
   - { file: photo_14.jpg, w: 1500, h: 2000, alt: Green coastal meadow under a wide blue sky }
-  - { file: photo_5.jpg, w: 1200, h: 1600, alt: Life moment 5 }
-  - { file: photo_6.jpg, w: 1600, h: 1521, alt: Life moment 6 }
+  - { file: photo_2.jpg, w: 1600, h: 1066, alt: Life moment 2 }
   - { file: photo_7.jpg, w: 1200, h: 1600, alt: Life moment 7 }
   - { file: photo_8.jpg, w: 1200, h: 1600, alt: Life moment 8 }
-  - { file: photo_9.jpg, w: 1600, h: 736, alt: Life moment 9 }
-  - { file: photo_15.jpg, w: 1500, h: 2000, alt: Sunset over the ocean from a coastal bluff }
+  # -- column 2
+  - { file: photo_3.jpg, w: 1200, h: 1600, alt: Life moment 3 }
+  - { file: photo_12.jpg, w: 1080, h: 1080, alt: Life moment 12 }
+  - { file: photo_5.jpg, w: 1200, h: 1600, alt: Life moment 5 }
   - { file: photo_10.jpg, w: 1440, h: 1080, alt: Life moment 10 }
   - { file: photo_11.jpg, w: 1080, h: 1440, alt: Life moment 11 }
-  - { file: photo_12.jpg, w: 1080, h: 1080, alt: Life moment 12 }
+  # -- column 3
+  - { file: photo_4.jpg, w: 1200, h: 1600, alt: Life moment 4 }
+  - { file: photo_6.jpg, w: 1600, h: 1521, alt: Life moment 6 }
+  - { file: photo_15.jpg, w: 1500, h: 2000, alt: Sunset over the ocean from a coastal bluff }
   - { file: photo_13.jpg, w: 1440, h: 1080, alt: Life moment 13 }
   - { file: photo_16.jpg, w: 1500, h: 2000, alt: Late afternoon sun breaking through clouds above the sea }
+  - { file: photo_9.jpg, w: 1600, h: 736, alt: Life moment 9 }
 ---
 
 Outside of research, I find joy in hiking and basketball, and in the ordinary hours a life is mostly made of.
@@ -56,6 +61,10 @@ Outside of research, I find joy in hiking and basketball, and in the ordinary ho
 
 <style>
 .life-gallery {
+  /* CSS multicol fills columns in document order and cannot split an
+     image, so column bottoms only line up if the source order already
+     balances. page.photos is grouped accordingly - reshuffle those
+     groups, not just the list, when adding photos. */
   column-count: 3;
   column-gap: 0.7rem;
   column-fill: balance;
