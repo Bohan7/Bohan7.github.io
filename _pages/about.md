@@ -225,8 +225,8 @@ latest_posts:
       </div>
       <div class="journey-info">
         <div class="journey-country">TikTok</div>
-        <div class="journey-place">Machine Learning Engineer · San Jose, CA, USA</div>
-        <div class="journey-years">May 2026 – Present</div>
+        <div class="journey-place">Machine Learning Intern · San Jose, CA, USA</div>
+        <div class="journey-years">May 2026 – Aug 2026</div>
       </div>
     </div>
 

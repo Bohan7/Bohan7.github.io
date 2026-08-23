@@ -44,11 +44,12 @@
   ],
   "experience": [
     {
-      "name": "TikTok · Internship<br>San Jose, California, USA",
-      "position": "Machine Learning Engineer",
+      "name": "TikTok, San Jose, California, USA",
+      "position": "Machine Learning Intern",
       "url": "https://www.tiktok.com/",
       "startDate": "2026-05-01",
-      "endDate": "2026-08-01"
+      "endDate": "2026-08-01",
+      "summary": "Designed a unified time series foundation model for univariate, multivariate, and covariate-informed forecasting."
     },
     {
       "name": "Logitech, Lausanne, Switzerland",
