@@ -23,7 +23,7 @@ photos:
   - { file: photo_16.jpg, w: 1500, h: 2000, alt: Late afternoon sun breaking through clouds above the sea }
 ---
 
-Outside of research, I find joy in hiking and basketball, and in the small moments in between.
+Outside of research, I find joy in hiking and basketball, and in the ordinary hours a life is mostly made of.
 
 **Hiking:** :sunrise_over_mountains: chasing lakes, sunsets, and sunrises.
 
