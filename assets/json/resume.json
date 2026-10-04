@@ -48,7 +48,7 @@
       "url": "https://www.tiktok.com/",
       "startDate": "2026-05-01",
       "endDate": "2026-08-01",
-      "summary": "a unified time series foundation model for multivariate, and covariate-informed forecasting."
+      "summary": "A unified time series foundation model for multivariate, and covariate-informed forecasting."
     },
     {
       "name": "Logitech, Lausanne, Switzerland",
@@ -74,7 +74,7 @@
       "url": "https://www.epfl.ch/labs/lts4/",
       "startDate": "2022-07-01",
       "endDate": "2022-10-01",
-      "summary": "the conditional denoising process for the graph discrete denoising diffusion model.",
+      "summary": "The conditional denoising process for the graph discrete denoising diffusion model.",
       "highlights": ["Advised by Prof. Pascal Frossard."]
     },
     {
