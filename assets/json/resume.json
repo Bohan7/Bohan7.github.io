@@ -48,7 +48,7 @@
       "url": "https://www.tiktok.com/",
       "startDate": "2026-05-01",
       "endDate": "2026-08-01",
-      "summary": "A unified time series foundation model for multivariate, and covariate-informed forecasting."
+      "summary": "A unified time series foundation model for univariate, multivariate, and covariate-informed forecasting."
     },
     {
       "name": "Logitech, Lausanne, Switzerland",
@@ -56,7 +56,7 @@
       "url": "https://en.wikipedia.org/wiki/Logitech",
       "startDate": "2022-09-01",
       "endDate": "2023-03-01",
-      "summary": "Designed and implemented a non-parallel low-latency real-time any-to-any voice conversion system.",
+      "summary": "A non-parallel low-latency real-time any-to-any voice conversion system.",
       "highlights": ["Advised by Dr. Milos Cernak."]
     },
     {
@@ -65,7 +65,7 @@
       "url": "https://www.psu.edu/",
       "startDate": "2024-01-01",
       "endDate": "2024-10-01",
-      "summary": "Explored graph-generation-based strategies to address the Out-of-Distribution (OOD) problem in machine learning on graph-structured data.",
+      "summary": "Graph-generation-based strategies to address the Out-of-Distribution (OOD) problem in machine learning on graph-structured data.",
       "highlights": ["Advised by Prof. Lu Lin."]
     },
     {
@@ -92,7 +92,7 @@
       "url": "https://www.epfl.ch/labs/lions/",
       "startDate": "2021-02-01",
       "endDate": "2022-01-01",
-      "summary": "Explored regularization of polynomial networks for image recognition.",
+      "summary": "Regularization of polynomial networks for image recognition.",
       "highlights": ["Advised by Prof. Grigorios Chrysos and Prof. Volkan Cevher."]
     }
   ],
