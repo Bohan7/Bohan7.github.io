@@ -770,7 +770,13 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      // Thumbnails share one 16:9 shape. The files are already letterboxed
+      // to 16:9 (medium-zoom scales by the box, so baking the margin in keeps
+      // zoom full-size); this only catches a preview added in another shape.
       .preview {
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+        background-color: #fff;
       }
 
       .abbr {
