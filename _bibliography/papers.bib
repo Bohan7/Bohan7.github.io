@@ -23,6 +23,7 @@
   booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year={2026},
   note={AI for Sciences Track · <span class="oral">Oral</span>},
+  abstract={Accurate epidemic forecasting is crucial for outbreak preparedness, but existing data-driven models are often brittle. Typically trained on a single pathogen, they struggle with data scarcity during new outbreaks and fail under distribution shifts caused by viral evolution or interventions. However, decades of surveillance data and the design of various compartmental models from diverse diseases offer an untapped source of transferable knowledge. To leverage the collective lessons from history, we propose CAPE, the first open-source pre-trained model for epidemic forecasting. Unlike existing time series foundation models that overlook epidemiological challenges, CAPE models epidemic dynamics as mixtures of latent compartmental population states, termed <em>compartmental prototypes</em>. It models a flexible dictionary of compartment prototypes directly from a large collection of simulation data, enabling each outbreak to be expressed as a time-varying mixture that links observed infections to latent population states. To promote robust generalization, CAPE adopts the next-token-prediction paradigm during pre-training with lightweight epidemic-aware regularization that aligns the learned prototypes with epidemiological semantics. On a comprehensive benchmark spanning 17 diseases, CAPE significantly outperforms strong baselines with zero-shot forecasting. This work represents a principled step toward pre-trained epidemic models that are both transferable and epidemiologically grounded. We provide our code in: https://github.com/nuuuh/CAPE.},
   pdf={https://arxiv.org/abs/2502.03393}
 }
 
@@ -34,6 +35,7 @@
   booktitle={Proceedings of the 43rd International Conference on Machine Learning},
   year={2026},
   selected={true},
+  abstract={Interpretable time series deep learning systems are often assessed by checking temporal consistency on explanations, implicitly treating this as evidence of robustness. We show that this assumption can fail: Predictions and explanations can be adversarially decoupled, enabling targeted misclassification while the explanation remains plausible and consistent with a chosen reference rationale. We propose TSEF (Time Series Explanation Fooler), a dual-target attack that jointly manipulates the classifier and explainer outputs. In contrast to single-objective misclassification attacks that disrupt explanation and spread attribution mass broadly, TSEF achieves targeted prediction changes while keeping explanations consistent with the reference. Across multiple datasets and explainer backbones, our results consistently reveal that explanation stability is a misleading proxy for decision robustness and motivate coupling-aware robustness evaluations for trustworthy time series tasks.},
   pdf={https://arxiv.org/abs/2602.02763}
 }
 
