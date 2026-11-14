@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on [Exposing Vulnerabilities in Explanation for Time Series Classifiers](https://arxiv.org/abs/2602.02763) has been accepted to ICML 2026!
+Our paper on [Exposing Vulnerabilities in Explanation for Time Series Classifiers](https://arxiv.org/abs/2602.02763) has been accepted to **ICML 2026**!

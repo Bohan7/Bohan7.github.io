@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 <!-- A simple inline announcement. -->
-[Our survey on Graph Ordinary Differential Equations (ODEs)](https://arxiv.org/abs/2503.23167) has been accepted by KDD2025!
+[Our survey on Graph Ordinary Differential Equations (ODEs)](https://arxiv.org/abs/2503.23167) has been accepted by **KDD 2025**!
