@@ -722,6 +722,17 @@ footer.sticky-bottom {
   }
 }
 
+// Presentation honours such as "Oral", used in bib notes and news items
+
+.oral {
+  color: var(--global-highlight-color);
+
+  // the theme highlight red (#b71c1c) is too dim on the dark background
+  html[data-theme="dark"] & {
+    color: $red-color;
+  }
+}
+
 // Publications
 
 .publications {
