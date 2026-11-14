@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-life",
-          title: "life",
-          description: "",
+        },{id: "nav-life-journey",
+          title: "life journey",
+          description: "Life is fleeting, and I am but a traveler.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/life/";
